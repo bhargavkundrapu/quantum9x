@@ -14,7 +14,7 @@ import React from 'react'
 import './App.css'
 
 function App() {
-
+  
 
   return (
       <ThemeProvider>
@@ -23,8 +23,8 @@ function App() {
           <ThemeSmokeTest />
           <ScrollToTop />
           <Navbar />
-          <AnimatePresence mode="wait">
-            <Routes>
+          <AnimatePresence initial={false}>
+            <Routes >
               <Route path="/" element={<PageWrap><HomePage /></PageWrap>} />
               <Route path="/courses" element={<PageWrap><CoursesPage /></PageWrap>} />
               <Route path="/contact" element={<PageWrap><ContactPage /></PageWrap>} />

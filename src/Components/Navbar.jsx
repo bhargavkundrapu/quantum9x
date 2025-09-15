@@ -5,6 +5,7 @@ import { useTheme } from "next-themes";
 import { AnimatePresence, motion } from "framer-motion";
 import Container from "./Container";
 import useScrollY from "./useScrolly";
+import {Link} from 'react-router-dom'
 
 const navCls = ({ isActive }) => `text-sm uppercase tracking-wide transition hover:text-[var(--q9x-red-600)] ${isActive ? "text-[var(--q9x-red-600)]" : "text-slate-900/90 dark:text-white/90"}`;
 const navLinkClass = "text-sm uppercase tracking-wide transition hover:text-[var(--q9x-red-600)] text-slate-900/90 dark:text-white/90";
@@ -31,17 +32,15 @@ const Navbar = () => {
       >
         <Container className="flex items-center justify-between h-16">
           <NavLink to="/" className="group inline-flex items-center gap-2">
-            <div className="relative">
-              <span className="absolute -inset-1 rounded-xl bg-[var(--q9x-red)]/30 blur-sm group-hover:bg-[var(--q9x-red)]/40 transition" />
-              <div className="relative z-10 h-9 w-9 rounded-xl bg-[var(--q9x-red)] grid place-items-center text-white font-black select-none">Q9</div>
-            </div>
-            <span className="text-lg font-semibold tracking-wide text-slate-900 dark:text-white">Quantum9x</span>
+            <Link to="/">
+              <span className="text-lg font-semibold tracking-wide text-slate-900 dark:text-white">Quantum9x</span>
+            </Link>
           </NavLink>
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-6">
             <NavLink className={navCls} to="/">Home</NavLink>
-            <a className={navLinkClass} href="#about">About</a>
+            <a className={navLinkClass}   href="#about">About</a>
             <a className={navLinkClass} href="#why">Why Us</a>
             <a className={navLinkClass} href="#team">Team</a>
             <a className={navLinkClass} href="#social">Social</a>

@@ -39,7 +39,7 @@ const ContactPage = () => {
         </motion.form>
 
         <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }}
-          className="relative rounded-2xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-gradient-to-br dark:from-white/5 dark:to-transparent p-6">
+          className="relative rounded-2xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-white/5 p-6">
           <h3 className="text-slate-900 dark:text-white font-semibold text-lg">Reach Us</h3>
           <p className="text-slate-700 dark:text-white/80 mt-2 text-sm">Email: hello@quantum9x.com</p>
           <p className="text-slate-700 dark:text-white/80 text-sm">Phone: +91 96xx xxxxxx</p>

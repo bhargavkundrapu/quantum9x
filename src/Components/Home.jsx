@@ -11,13 +11,13 @@ import Footer from "./Footer";
 
 
 const HomePage = () => (
-  <main className="relative">
+  <>
     <Hero />
     <About />
     <WhyUs />
     <Team />
     <Social />
     <Footer />
-  </main>
+  </>
 );
 export default HomePage;
