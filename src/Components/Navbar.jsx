@@ -46,13 +46,7 @@ const Navbar = () => {
             <a className={navLinkClass} href="#social">Social</a>
             <NavLink className={navCls} to="/courses">Courses</NavLink>
             <NavLink className={navCls} to="/contact">Contact</NavLink>
-            <button
-              onClick={toggle}
-              className="relative z-[60] inline-flex items-center gap-2 rounded-xl border border-black/10 dark:border-white/10 px-3 py-2 text-sm text-slate-900 dark:text-white hover:bg-black/5 dark:hover:bg-white/5 transition"
-              aria-label="Toggle theme"
-            >
-              {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />} {theme === "dark" ? "Light" : "Dark"}
-            </button>
+            
           </div>
 
           {/* Mobile */}
@@ -76,9 +70,7 @@ const Navbar = () => {
                 <a className={mobileLinkClass} href="#social">Social</a>
                 <NavLink className={mobileNavCls} to="/courses">Courses</NavLink>
                 <NavLink className={mobileNavCls} to="/contact">Contact</NavLink>
-                <button onClick={toggle} className="mt-2 inline-flex items-center gap-2 rounded-xl border border-black/10 dark:border-white/10 px-3 py-2 text-sm text-slate-900 dark:text-white hover:bg-black/5 dark:hover:bg-white/5">
-                  {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />} {theme === "dark" ? "Light" : "Dark"}
-                </button>
+              
               </Container>
             </motion.div>
           )}
