@@ -17,10 +17,10 @@ function App() {
   
 
   return (
-      <ThemeProvider>
+      <>
         <GlobalCSS />
         <BrowserRouter>
-          <ThemeSmokeTest />
+          
           <ScrollToTop />
           <Navbar />
           <AnimatePresence initial={false}>
@@ -31,7 +31,7 @@ function App() {
             </Routes>
           </AnimatePresence>
         </BrowserRouter>
-      </ThemeProvider>
+      </>
   )
 }
 
