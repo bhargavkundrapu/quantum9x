@@ -13,7 +13,7 @@ import { HeaderSection } from "./Courses";
 const ContactPage = () => {
   return (
     <main className="relative">
-      <HeaderSection heading="Contact Us" sub="We usually respond within one business day." />
+      <HeaderSection headingstart="Contact" heading=" Us" sub="We usually respond within one business day." />
       <Container className="pb-20 grid lg:grid-cols-2 gap-8">
         <motion.form
           initial={{ opacity: 0, y: 16 }}

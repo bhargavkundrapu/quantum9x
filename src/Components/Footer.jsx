@@ -24,8 +24,8 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-br from-red-600 to-red-800 rounded-lg flex items-center justify-center">
-                <img src={logo} alt="TechCrack Logo" className="w-6 h-6" />
+              <div className="w-10 h-10 bg-gradient-to-br rounded-lg flex items-center justify-center">
+                <img src={logo} alt="TechCrack Logo" className="w-18 h-10 mt-2" />
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
                 Quantum<span className="text-white">9</span>X
