@@ -3,15 +3,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Instagram } from "lucide-react";
 import Container from "./Container";
+import thanush from '../assets/thanush.jpg';
 
 const Team = () => {
   const team = [
-    { name: "Alice Rao", role: "Frontend Mentor", img: "https://via.placeholder.com/150", ig: "#" },
-    { name: "Rahul Mehta", role: "Backend Architect", img: "https://via.placeholder.com/150", ig: "#" },
-    { name: "Sneha Iyer", role: "Career Coach", img: "https://via.placeholder.com/150", ig: "#" },
-    { name: "Vikram Shah", role: "DSA Instructor", img: "https://via.placeholder.com/150", ig: "#" },
-    { name: "Meera N", role: "Full‑Stack Mentor", img: "https://via.placeholder.com/150", ig: "#" },
-    { name: "Harish Gupta", role: "Placement Lead", img: "https://via.placeholder.com/150", ig: "#" },
+    { name: "Thanush", role: "Frontend Mentor", img: thanush , ig: "https://www.instagram.com/quantum9x?utm_source=ig_web_button_share_sheet&igsh=MTE2a2s2YjE3eDNybQ==" },
+    { name: "Rahul", role: "Backend Architect", img: "https://via.placeholder.com/150", ig: "https://www.instagram.com/quantum9x?utm_source=ig_web_button_share_sheet&igsh=MTE2a2s2YjE3eDNybQ==" },
+    
   ];
   return (
     <section id="team" className="relative">
@@ -23,12 +21,16 @@ const Team = () => {
             {team.map((m, i) => (
               <motion.div key={m.name} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.05 }}
                 className="group relative rounded-2xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-white/5 p-6 text-center">
-                <img src={m.img} alt={m.name} className="mx-auto h-24 w-24 rounded-full object-cover" />
+                <img src={m.img} alt={m.name} className="mx-auto h-30 w-30 rounded-full object-cover" />
                 <h3 className="mt-4 text-slate-900 dark:text-white font-semibold">{m.name}</h3>
                 <p className="text-slate-700 dark:text-white/70 text-sm">{m.role}</p>
                 <a href={m.ig} target="_blank" rel="noreferrer"
-                  className="mt-4 inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-[#feda75] via-[#d62976] to-[#4f5bd5] transition-transform hover:-translate-y-1">
-                  <Instagram size={16} className="mr-2"/> 
+                  className="mt-4 inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-large text-white bg-gradient-to-r from-[#feda75] via-[#d62976] to-[#4f5bd5] transition-transform hover:-translate-y-1">
+                  
+                 <div className="flex items-center gap-0">
+                  <Instagram size={28} className=" w-18"/> 
+                  <p className="text-sm m-0">Follow on Instagram</p> 
+                  </div>
                 </a>
               </motion.div>
             ))}

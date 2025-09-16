@@ -51,11 +51,11 @@ const About = () => (
                     <Briefcase className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-xl text-white font-bold ">
-                    Job Placement Support
+                    Job Placement Training
                   </h3>
                 </div>
                 <p className="text-gray-300">
-                  Comprehensive job placement assistance including resume building, interview prep, and direct company referrals.
+                  Comprehensive job placement assistance including resume building, interview prep, and  referrals.
                 </p>
               </div>
             </div>

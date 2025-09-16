@@ -19,7 +19,7 @@ const Hero = () => {
               Crack Your <span className="text-[var(--q9x-red-600)]">Software Job</span> Faster
             </h1>
             <p className="mt-4 text-slate-700 dark:text-white/80 max-w-prose">
-              Industry‑ready React, Full‑Stack, and Data tracks with live mentorship, job‑oriented projects, and interview prep. Built by engineers. Loved by learners.
+              Industry‑ready Coding,Programming, Full‑Stack, and Data tracks with live mentorship, job‑oriented projects, and interview prep. Built by engineers. Loved by learners.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <button onClick={() => navigate("/courses")}
@@ -35,7 +35,7 @@ const Hero = () => {
             <InfoCard title="Live Mentorship" text="Doubts cleared 1:1 by senior developers." z="z-30" />
             <InfoCard title="Real Projects" text="Ship capstones that recruiters love." z="z-20" delay={0.05} />
             <InfoCard title="Interview Prep" text="DSA, system design & mock interviews." z="z-10" delay={0.1} />
-            <InfoCard title="Placement Support" text="Resume, referrals & career guidance." z="z-0" delay={0.15} />
+            <InfoCard title="Placement Training" text="Aptitude,Resume, referrals & career guidance." z="z-0" delay={0.15} />
           </motion.div>
         </div>
       </Container>

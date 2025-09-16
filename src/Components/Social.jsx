@@ -11,8 +11,8 @@ const Social = () => (
         <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white">Follow Us</h2>
         <p className="text-slate-700 dark:text-white/80 mt-2">Join our community. We share tips, hiring alerts, and live sessions.</p>
         <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
-          <SocialCard icon={<Instagram />} label="Instagram" href="#"/>
-          <SocialCard icon={<Youtube />} label="YouTube" href="#"/>
+          <SocialCard icon={<Instagram />} label="Instagram" href="https://www.instagram.com/quantum9x?utm_source=ig_web_button_share_sheet&igsh=MTE2a2s2YjE3eDNybQ=="/>
+          <SocialCard icon={<Youtube />} label="YouTube" href="https://www.youtube.com/@Quantum9X"/>
           <SocialCard icon={<Linkedin />} label="LinkedIn" href="#"/>
           <SocialCard icon={<Twitter />} label="X (Twitter)" href="#"/>
           <SocialCard icon={<Facebook />} label="Facebook" href="#"/>
