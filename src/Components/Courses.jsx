@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Container from "./Container";
 import Footer from "./Footer";
-import { Star, Check } from "lucide-react";
+import { Star, Check ,Airplay} from "lucide-react";
 
 import React from "react";
 
@@ -17,7 +17,7 @@ const CoursesPage = () => {
       level: "Beginner to Advanced",
       price: "₹49,999",
       originalPrice: "₹79,999",
-      image: "💻",
+      image: Airplay,
       features: ["React.js & Node.js", "MongoDB & PostgreSQL", "AWS Deployment", "Real Projects"],
       rating: 4.9,
       students: "12K+",
@@ -97,9 +97,9 @@ const CoursesPage = () => {
             >
               <div className={`rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl bg-gradient-to-br from-gray-900 to-gray-800border border-gray-800 group-hover:border-red-500/20`}>
                 {/* Course Image */}
-                <div className={`h-48 bg-transparent flex items-center justify-center relative overflow-hidden`}>
-                  <div className="text-6xl mb-4">{course.image}</div>
-                  <div className="absolute top-4 right-4 bg-black-600 text-yellow-500 px-3 py-1 rounded-full text-sm font-semibold">
+                <div className={`h-40 bg-transparent flex items-center justify-center relative overflow-hidden`}>
+                  <div className="text-6xl mt-15"><Airplay color="#d2042d" lab className="w-30 h-30 text-gray-400" /></div>
+                  <div className="absolute top-4 mb-4 right-2  bg-black-600 text-yellow-500 px-3 py-1 rounded-full text-sm font-semibold">
                     {course.coursetype}
                   </div>
                 </div>
@@ -150,7 +150,7 @@ const CoursesPage = () => {
                     </div>
                   </div>
 
-                  <button className="w-full py-3 bg-gradient-to-r from-red-600 to-red-700 text-white font-semibold rounded-xl hover:shadow-lg hover:shadow-red-500/25 transform hover:scale-105 transition-all duration-300">
+                  <button className="w-full py-3 bg-yellow-500 text-grey-500 font-bold rounded-xl hover:shadow-lg hover:shadow-red-500/25 transform hover:scale-105 transition-all duration-300">
                     Enroll Now
                   </button>
                 </div>

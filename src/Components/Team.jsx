@@ -7,8 +7,9 @@ import thanush from '../assets/thanush.jpg';
 
 const Team = () => {
   const team = [
-    { name: "Thanush", role: "Frontend Mentor", img: thanush , ig: "https://www.instagram.com/quantum9x?utm_source=ig_web_button_share_sheet&igsh=MTE2a2s2YjE3eDNybQ==" },
-    { name: "Rahul", role: "Backend Architect", img: "https://via.placeholder.com/150", ig: "https://www.instagram.com/quantum9x?utm_source=ig_web_button_share_sheet&igsh=MTE2a2s2YjE3eDNybQ==" },
+    { name: "bhargav_kundrapu", role: "Full Stack Developer", img: "https://via.placeholder.com/150", ig: "https://www.instagram.com/bhargav_kundrapu/" },
+    
+    { name: "thanush_chalamala", role: "Coading Mentor", img: thanush , ig: "https://www.instagram.com/simply_bittu?utm_source=ig_web_button_share_sheet&igsh=MTBuNmxieG05aTE3OA==" },
     
   ];
   return (

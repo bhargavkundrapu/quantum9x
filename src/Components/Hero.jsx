@@ -33,8 +33,9 @@ const Hero = () => {
           {/* Highlight cards */}
           <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="grid sm:grid-cols-2 gap-4 relative">
             <InfoCard title="Live Mentorship" text="Doubts cleared 1:1 by senior developers." z="z-30" />
-            <InfoCard title="Real Projects" text="Ship capstones that recruiters love." z="z-20" delay={0.05} />
-            <InfoCard title="Interview Prep" text="DSA, system design & mock interviews." z="z-10" delay={0.1} />
+            <InfoCard title="Real Projects" text="Ship capstones that recruiters love.built real world projects" z="z-20" delay={0.05} />
+            <InfoCard title="Interview Prep" text="DSA, 
+            Aptitude, Resume templates & mock interviews." z="z-10" delay={0.1} />
             <InfoCard title="Placement Training" text="Aptitude,Resume, referrals & career guidance." z="z-0" delay={0.15} />
           </motion.div>
         </div>

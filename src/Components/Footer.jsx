@@ -13,7 +13,8 @@ const Footer = () => {
     company: ["About Us", "Our Team", "Careers", "Press"],
     courses: ["Web Development", "Mobile Development", "Data Science", "DevOps"],
     support: ["Help Center", "Contact Us", "FAQ", "Community"],
-    legal: ["Privacy Policy", "Terms of Service", "Cookie Policy", "Refund Policy"]
+    legal: ["Privacy Policy", "Terms of Service", "Cookie Policy", "Refund Policy"],
+    hyperlinks: ["#about", "#why", "#team", "#social"]
   };
 
   return (
@@ -58,7 +59,7 @@ const Footer = () => {
             <ul className="space-y-3">
               {footerLinks.company.map((link, index) => (
                 <li key={index}>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
+                  <a href={footerLinks.hyperlinks[index]} className="text-gray-400 hover:text-white transition-colors duration-300">
                     {link}
                   </a>
                 </li>
