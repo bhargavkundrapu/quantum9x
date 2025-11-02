@@ -3,9 +3,8 @@ import { motion } from "framer-motion";
 import Container from "./Container";
 import HeaderSection from "./Headersection";
 import Footer from "./Footer";
-import Q9XModal from "./Q9XModal";
-import React from "react";
-import {} from "react";
+import Q9XModal from "./Q9xModal";
+
 
 
 
