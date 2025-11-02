@@ -7,10 +7,10 @@ import thanush from '../assets/thanush.jpg';
 
 const Team = () => {
   const team = [
-    { name: "bhargav_kundrapu", role: "Full Stack Developer", img: "https://via.placeholder.com/150", ig: "https://www.instagram.com/bhargav_kundrapu/" },
+    { name: "Bhargav Kundrapu", role: "Web Developer",text:"Deriving innovative solutions through code", img: thanush, ig: "https://www.instagram.com/bhargav_kundrapu/" },
     
-    { name: "thanush_chalamala", role: "Coading Mentor", img: thanush , ig: "https://www.instagram.com/simply_bittu?utm_source=ig_web_button_share_sheet&igsh=MTBuNmxieG05aTE3OA==" },
-    
+    { name: "ThanushMohan Chalamala", role: "Founder",text:"Driving inovation in educational technology with a passion for quantum-speed learning and ai-explorer", img: thanush , ig: "https://www.instagram.com/simply_bittu?utm_source=ig_web_button_share_sheet&igsh=MTBuNmxieG05aTE3OA==" },
+    { name: "Phani Pilaka ", role: "Co-Founder",text:"Empowering the next generation of tech leaders through mentorship and guidance", img: thanush, ig: "https://www.instagram.com/phani_pilaka/" },
   ];
   return (
     <section id="team" className="relative">
@@ -25,6 +25,7 @@ const Team = () => {
                 <img src={m.img} alt={m.name} className="mx-auto h-30 w-30 rounded-full object-cover" />
                 <h3 className="mt-4 text-slate-900 dark:text-white font-semibold">{m.name}</h3>
                 <p className="text-slate-700 dark:text-white/70 text-sm">{m.role}</p>
+                <p className="text-slate-700 dark:text-white/70 text-lg">{m.text}</p>
                 <a href={m.ig} target="_blank" rel="noreferrer"
                   className="mt-4 inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-large text-white bg-gradient-to-r from-[#feda75] via-[#d62976] to-[#4f5bd5] transition-transform hover:-translate-y-1">
                   

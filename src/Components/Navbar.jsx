@@ -42,11 +42,9 @@ const Navbar = () => {
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-6">
             <NavLink className={navCls} to="/">Home</NavLink>
-            <a className={navLinkClass}   href="#about">About</a>
-            <a className={navLinkClass} href="#why">Why Us</a>
-            <a className={navLinkClass} href="#team">Team</a>
-            <a className={navLinkClass} href="#social">Social</a>
             <NavLink className={navCls} to="/courses">Courses</NavLink>
+            <NavLink className={navCls} to="/hackathons">Hackathons</NavLink>
+            <NavLink className={navCls} to="/internships">Internships</NavLink>
             <NavLink className={navCls} to="/contact">Contact</NavLink>
             
           </div>
@@ -66,11 +64,10 @@ const Navbar = () => {
             >
               <Container className="flex flex-col py-4 gap-3">
                 <NavLink className={mobileNavCls} to="/">Home</NavLink>
-                <a className={mobileLinkClass} href="#about">About</a>
-                <a className={mobileLinkClass} href="#why">Why Us</a>
-                <a className={mobileLinkClass} href="#team">Team</a>
-                <a className={mobileLinkClass} href="#social">Social</a>
-                <NavLink className={mobileNavCls} to="/courses">Courses</NavLink>
+                 <NavLink className={mobileNavCls} to="/courses">Courses</NavLink>
+                <NavLink className={mobileNavCls} to="/hackathons">Hackathons</NavLink>
+                <NavLink className={mobileNavCls} to="/internships">Internships</NavLink>
+               
                 <NavLink className={mobileNavCls} to="/contact">Contact</NavLink>
               
               </Container>

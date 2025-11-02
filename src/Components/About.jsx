@@ -59,6 +59,36 @@ const About = () => (
                 </p>
               </div>
             </div>
+            <div className="group transform hover:scale-105 transition-all duration-300">
+              <div className={`p-6 rounded-2xl bg-black/50 shadow-xl hover:shadow-2xl`}>
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-r from-red-600 to-red-700 rounded-lg flex items-center justify-center mr-4">
+                    <Briefcase className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="text-xl text-white font-bold ">
+                    Mission
+                  </h3>
+                </div>
+                <p className="text-gray-300">
+                  To empower students with practical skils, industry insights, and career support to thrive in the tech world.
+                </p>
+              </div>
+            </div>
+            <div className="group transform hover:scale-105 transition-all duration-300">
+              <div className={`p-6 rounded-2xl bg-black/50 shadow-xl hover:shadow-2xl`}>
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-r from-red-600 to-red-700 rounded-lg flex items-center justify-center mr-4">
+                    <Briefcase className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="text-xl text-white font-bold ">
+                    Vision
+                  </h3>
+                </div>
+                <p className="text-gray-300">
+                  To be the leading platform for tech education that seamlessly connects learning with real-world career opportunities.
+                </p>
+              </div>
+            </div>
 
         </div>
       </motion.div>
