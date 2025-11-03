@@ -14,8 +14,7 @@ const Social = () => (
           <SocialCard icon={<Instagram />} label="Instagram" href="https://www.instagram.com/quantum9x?utm_source=ig_web_button_share_sheet&igsh=MTE2a2s2YjE3eDNybQ=="/>
           <SocialCard icon={<Youtube />} label="YouTube" href="https://www.youtube.com/@Quantum9X"/>
           <SocialCard icon={<Linkedin />} label="LinkedIn" href="#"/>
-          <SocialCard icon={<Twitter />} label="X (Twitter)" href="#"/>
-          <SocialCard icon={<Facebook />} label="Facebook" href="#"/>
+          
         </div>
       </motion.div>
     </Container>

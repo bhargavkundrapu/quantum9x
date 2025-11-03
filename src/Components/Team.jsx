@@ -7,10 +7,13 @@ import thanush from '../assets/thanush.jpg';
 
 const Team = () => {
   const team = [
-    { name: "Bhargav Kundrapu", role: "Web Developer",text:"Deriving innovative solutions through code", img: thanush, ig: "https://www.instagram.com/bhargav_kundrapu/" },
+    
     
     { name: "ThanushMohan Chalamala", role: "Founder",text:"Driving inovation in educational technology with a passion for quantum-speed learning and ai-explorer", img: thanush , ig: "https://www.instagram.com/simply_bittu?utm_source=ig_web_button_share_sheet&igsh=MTBuNmxieG05aTE3OA==" },
-    { name: "Phani Pilaka ", role: "Co-Founder",text:"Empowering the next generation of tech leaders through mentorship and guidance", img: thanush, ig: "https://www.instagram.com/phani_pilaka/" },
+    { name: "Phani Pilaka ", role: "Co-Founder",text:"Empowering the next generation of tech leaders through mentorship and guidance", img: "https://res.cloudinary.com/da2wrgabu/image/upload/v1762142250/WhatsApp_Image_2025-11-02_at_19.06.03_a24cf430_n159rk.jpg", ig: "https://www.instagram.com/quantum9x/" },
+    { name: "Bhargav Kundrapu", role: "Web Developer",text:"Deriving innovative solutions through code", img: "https://res.cloudinary.com/da2wrgabu/image/upload/v1697385769/Screenshot_2023-06-30_130823_k8v5mo.png", ig: "https://www.instagram.com/bhargav_kundrapu/" },
+     { name: "Siva Kalyan", role: "Tech Lead",text:"Leading the charge in tech innovation and development", img: "https://res.cloudinary.com/da2wrgabu/image/upload/v1762142250/WhatsApp_Image_2025-11-02_at_19.21.58_0c54ba17_zgwsqg.jpg", ig: "https://www.instagram.com/quantum9x/" },
+      { name: "Tummala Srija", role: "Mentor",text:"teaching the future of technology", img: "https://res.cloudinary.com/da2wrgabu/image/upload/v1762142256/ChatGPT_Image_Nov_3_2025_09_25_20_AM_rbqdc1.png", ig: "https://www.instagram.com/quantum9x/" },
   ];
   return (
     <section id="team" className="relative">
