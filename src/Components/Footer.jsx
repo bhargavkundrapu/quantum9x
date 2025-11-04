@@ -103,7 +103,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className="text-gray-400 text-sm">Call Us</p>
-                <p className="text-white font-medium">+91 9876543210</p>
+                <p className="text-white font-medium">+91 8019234832</p>
               </div>
             </div>
             <div className="flex items-center space-x-3">
@@ -112,25 +112,17 @@ const Footer = () => {
               </div>
               <div>
                 <p className="text-gray-400 text-sm">Email Us</p>
-                <p className="text-white font-medium">info@techcrack.com</p>
+                <p className="text-white font-medium">thanushmohan69@gmail.com</p>
               </div>
             </div>
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-red-600/20 rounded-lg flex items-center justify-center">
-                <MapPin className="w-5 h-5 text-red-600" />
-              </div>
-              <div>
-                <p className="text-gray-400 text-sm">Visit Us</p>
-                <p className="text-white font-medium">Chennai, Tamil Nadu</p>
-              </div>
-            </div>
+            
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2024 TechCrack. All rights reserved.
+             2024 Quantum9x. All rights reserved.
           </p>
           <div className="flex flex-wrap gap-6">
             {footerLinks.legal.map((link, index) => (

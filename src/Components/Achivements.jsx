@@ -19,10 +19,10 @@ const Achievements = () => (
         {/* Stats */}
         <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
-            { h: "Hackathon Wins", v: "12+" },
-            { h: "Batches Completed", v: "25+" },
-            { h: "Students Trained", v: "1,200+" },
-            { h: "Partner Orgs", v: "15+" },
+            { h: "Hackathon Wins", v: "5+" },
+            { h: "Batches Completed", v: "5+" },
+            { h: "Students Trained", v: "200+" },
+            { h: "Webinar with IITians", v: "5+" },
           ].map((s) => (
             <div
               key={s.h}
@@ -39,7 +39,7 @@ const Achievements = () => (
         </div>
 
         {/* Simple gallery placeholders */}
-        <div className="mt-8 grid sm:grid-cols-3 gap-4">
+        {/*<div className="mt-8 grid sm:grid-cols-3 gap-4">
           {[1, 2, 3].map((n) => (
             <div
               key={n}
@@ -48,7 +48,7 @@ const Achievements = () => (
               Video/Photo {n}
             </div>
           ))}
-        </div>
+        </div> */}
       </motion.div>
     </Container>
   </section>
