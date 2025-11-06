@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Container from "./Container";
 import Footer from "./Footer";
+import { Link  } from "react-router-dom";
 import { Star, Check ,Airplay} from "lucide-react";
 
 import React from "react";
@@ -127,10 +128,11 @@ const CoursesPage = () => {
                       </span>
                     </div>
                   </div>
-
+                <Link to="/contact">
                   <button className="w-full py-3 bg-yellow-500 text-grey-500 font-bold rounded-xl hover:shadow-lg hover:shadow-red-500/25 transform hover:scale-105 transition-all duration-300">
                     Enroll Now
                   </button>
+                </Link>
                 </div>
               </div>
             </div>

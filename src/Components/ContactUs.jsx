@@ -24,8 +24,8 @@ const ContactPage = () => {
           className="relative rounded-2xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-white/5 p-6"
         >
           <div className="grid sm:grid-cols-2 gap-4">
-            <Input label="First Name" id="first" placeholder="Ananya" />
-            <Input label="Last Name" id="last" placeholder="Sharma" />
+            <Input label="First Name" id="first" placeholder="Name" />
+            <Input label="Last Name" id="last" placeholder="Last Name" />
             <Input label="Email" id="email" type="email" placeholder="you@example.com" className="sm:col-span-2" />
             <Input label="Phone" id="phone" type="tel" placeholder="+91 9xxxxxxxxx" className="sm:col-span-2" />
             <div className="sm:col-span-2">
@@ -41,12 +41,12 @@ const ContactPage = () => {
         <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }}
           className="relative rounded-2xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-white/5 p-6">
           <h3 className="text-slate-900 dark:text-white font-semibold text-lg">Reach Us</h3>
-          <p className="text-slate-700 dark:text-white/80 mt-2 text-sm">Email: hello@quantum9x.com</p>
-          <p className="text-slate-700 dark:text-white/80 text-sm">Phone: +91 96xx xxxxxx</p>
+          <p className="text-slate-700 dark:text-white/80 mt-2 text-sm">Email:thanushmohan69@gmail.com</p>
+          <p className="text-slate-700 dark:text-white/80 text-sm">Phone:+91 8019234832</p>
           <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3">
-            <SocialCard icon={<Instagram />} label="Instagram" href="#" />
+            <SocialCard icon={<Instagram />} label="Instagram" href="https://www.instagram.com/quantum9x?utm_source=ig_web_button_share_sheet&igsh=MTE2a2s2YjE3eDNybQ==" />
             <SocialCard icon={<Linkedin />} label="LinkedIn" href="#" />
-            <SocialCard icon={<Youtube />} label="YouTube" href="#" />
+            <SocialCard icon={<Youtube />} label="YouTube" href="https://www.youtube.com/@Quantum9X" />
           </div>
         </motion.div>
       </Container>
