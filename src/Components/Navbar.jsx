@@ -35,7 +35,7 @@ const Navbar = () => {
           <NavLink to="/" className="group inline-flex items-center gap-2">
             <Link to="/" className="flex items-center gap-1"  aria-label="Quantum9x Logo"  >
              <img src={logo} alt="Quantum9x Logo" className=" mt-2 h-14 w-14 object-contain"/>
-              <span className="text-lg font-semibold tracking-wide text-slate-100 dark:text-[var(--q9x-red-600)]">Quantum<span className="text-white">9</span>X</span>
+              <span className="text-lg font-semibold tracking-wide text-slate-900 dark:text-[var(--q9x-red-600)]">Quantum<span className="text-white">9</span>X</span>
             </Link>
           </NavLink>
 

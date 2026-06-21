@@ -183,19 +183,24 @@ const Internship = () => {
 
 
   return (
-    <main className="relative min-h-screen bg-slate-50 dark:bg-[#0b0d10] py-12 transition-colors duration-300">
+    <main className="relative min-h-screen pt-24 pb-12">
       <Container className="pb-20">
         {/* Centered Heading Layout matching codsoft screenshot theme */}
-        <div className="text-center mb-16 mt-6">
+        <div className="text-center mb-16 mt-12 sm:mt-16">
           <motion.h1
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-2xl sm:text-4xl font-extrabold tracking-wide text-[#0f3460] dark:text-white uppercase"
+            className="text-2xl sm:text-4xl font-extrabold tracking-wide text-slate-900 dark:text-white uppercase"
           >
             INTERNSHIPS WE OFFER!
           </motion.h1>
           <div className="h-1 w-20 bg-[var(--q9x-red)] mx-auto mt-3 rounded-full" />
-          <p className="text-slate-600 dark:text-white/60 mt-3 max-w-xl mx-auto text-sm sm:text-base">
+          <div className="mt-3.5 flex justify-center">
+            <span className="bg-red-600/10 text-red-600 dark:bg-red-600/20 dark:text-red-400 text-[10px] sm:text-xs font-bold px-2.5 py-1 rounded border border-red-500/25 uppercase tracking-wide">
+              🇮🇳 MSME Registered Internship Programs
+            </span>
+          </div>
+          <p className="text-slate-600 dark:text-white/60 mt-4.5 max-w-xl mx-auto text-sm sm:text-base">
             Kickstart your tech career with real-world exposure, practical mentors, and industry-grade projects.
           </p>
         </div>
@@ -211,10 +216,10 @@ const Internship = () => {
               transition={{ duration: 0.5, delay: i * 0.08 }}
               whileHover={{ y: -8 }}
               onClick={() => setSelected(it)}
-              className="cursor-pointer flex flex-col rounded-2xl bg-white dark:bg-slate-900/50 border border-slate-200/80 dark:border-white/10 p-6 shadow-md hover:shadow-xl transition-all duration-300 relative group overflow-hidden"
+              className="cursor-pointer flex flex-col rounded-2xl bg-white/70 dark:bg-white/5 border border-black/10 dark:border-white/10 p-6 shadow-md hover:shadow-xl transition-all duration-300 relative group overflow-hidden"
             >
               {/* Card Illustration */}
-              <div className="flex-grow flex items-center justify-center p-4 bg-slate-50 dark:bg-slate-800/40 rounded-xl mb-6 group-hover:bg-slate-100 dark:group-hover:bg-slate-800/60 transition-colors">
+              <div className="flex-grow flex items-center justify-center p-4 bg-black/5 dark:bg-white/5 rounded-xl mb-6 group-hover:bg-black/10 dark:group-hover:bg-white/10 transition-colors">
                 {it.illustration}
               </div>
 
@@ -234,7 +239,7 @@ const Internship = () => {
                 target="_blank"
                 rel="noreferrer"
                 onClick={(e) => e.stopPropagation()}
-                className="w-full py-2.5 px-6 rounded-full font-semibold text-white bg-sky-500 dark:bg-sky-600 hover:bg-sky-600 dark:hover:bg-sky-500 shadow-sm active:scale-95 transition-all duration-200 text-center block"
+                className="w-full py-2.5 px-6 rounded-full font-semibold text-white bg-[var(--q9x-red)] hover:bg-[var(--q9x-red-600)] shadow-sm active:scale-95 transition-all duration-200 text-center block"
               >
                 Apply
               </a>
@@ -289,7 +294,7 @@ const Internship = () => {
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeTvtIc-p3qDqjv2V6cYceD2GZtQMGLwkd2ZbUgYUBYAMpCAw/viewform"
                 target="_blank"
                 rel="noreferrer"
-                className="px-6 py-2.5 text-xs font-semibold rounded-lg bg-sky-500 dark:bg-sky-600 hover:bg-sky-600 dark:hover:bg-sky-500 text-white shadow text-center"
+                className="px-6 py-2.5 text-xs font-semibold rounded-lg bg-[var(--q9x-red)] hover:bg-[var(--q9x-red-600)] text-white shadow text-center"
               >
                 Apply Now
               </a>

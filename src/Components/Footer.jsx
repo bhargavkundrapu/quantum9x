@@ -34,13 +34,16 @@ const Footer = () => {
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Empowering the next generation of software developers with industry-relevant skills and personalized mentorship.
+              <span className="block mt-3 text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                🇮🇳 Recognized by MSME, Govt. of India
+              </span>
             </p>
             <div className="flex space-x-4">
               {[
                 { icon: Facebook, href: "#" },
                 { icon: Twitter, href: "#" },
                 { icon: Instagram, href: "#" },
-                { icon: Linkedin, href: "#" }
+                { icon: Linkedin, href: "https://www.linkedin.com/in/thanush-mohan-464184354?utm_source=share_via&utm_content=profile&utm_medium=member_android" }
               ].map((social, index) => (
                 <a
                   key={index}
@@ -112,7 +115,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className="text-gray-400 text-sm">Email Us</p>
-                <p className="text-white font-medium">thanushmohan69@gmail.com</p>
+                <p className="text-white font-medium">thanushmohan@quantum9x.com</p>
               </div>
             </div>
             

@@ -13,7 +13,7 @@ import { HeaderSection } from "./Courses";
 const ContactPage = () => {
   return (
     <main className="relative">
-      <HeaderSection headingstart="Contact" heading=" Us" sub="We usually respond within one business day." />
+      <HeaderSection headingstart="Contact" heading=" Us" sub="We usually respond within one business day. Recognized by MSME, Government of India." />
       <Container className="pb-20 grid lg:grid-cols-2 gap-8">
         <motion.form
           initial={{ opacity: 0, y: 16 }}
@@ -41,11 +41,11 @@ const ContactPage = () => {
         <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }}
           className="relative rounded-2xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-white/5 p-6">
           <h3 className="text-slate-900 dark:text-white font-semibold text-lg">Reach Us</h3>
-          <p className="text-slate-700 dark:text-white/80 mt-2 text-sm">Email:thanushmohan69@gmail.com</p>
+          <p className="text-slate-700 dark:text-white/80 mt-2 text-sm">Email:thanushmohan@quantum9x.com</p>
           <p className="text-slate-700 dark:text-white/80 text-sm">Phone:+91 8019234832</p>
           <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3">
             <SocialCard icon={<Instagram />} label="Instagram" href="https://www.instagram.com/quantum9x?utm_source=ig_web_button_share_sheet&igsh=MTE2a2s2YjE3eDNybQ==" />
-            <SocialCard icon={<Linkedin />} label="LinkedIn" href="#" />
+            <SocialCard icon={<Linkedin />} label="LinkedIn" href="https://www.linkedin.com/in/thanush-mohan-464184354?utm_source=share_via&utm_content=profile&utm_medium=member_android" />
             <SocialCard icon={<Youtube />} label="YouTube" href="https://www.youtube.com/@Quantum9X" />
           </div>
         </motion.div>

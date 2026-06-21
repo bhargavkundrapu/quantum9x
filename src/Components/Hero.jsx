@@ -14,7 +14,9 @@ const Hero = () => {
       <Container className="py-16 sm:py-20 lg:py-28">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
-            <span className="inline-block text-[10px] sm:text-xs tracking-widest uppercase text-slate-700 dark:text-white/70">EdTech • Online IT Courses</span>
+            <span className="inline-flex items-center gap-1.5 text-[10px] sm:text-xs tracking-widest uppercase text-slate-700 dark:text-white/70 font-semibold">
+              EdTech • Online IT Courses • <span className="text-red-600 dark:text-red-400 font-extrabold">MSME Registered</span>
+            </span>
             <h1 className="mt-3 text-3xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-slate-900 dark:text-white">
               Crack Your <span className="text-[var(--q9x-red-600)]">Software Job</span> Faster
             </h1>
